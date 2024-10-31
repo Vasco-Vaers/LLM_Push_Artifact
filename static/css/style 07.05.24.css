@@ -1,0 +1,183 @@
+/*barra de head*/
+.navbar {
+    background-color: #a83333;
+    color: #fff;
+    width: flex;
+}
+
+.navtitle {  
+    color: #fff;
+    }
+
+.logo {  
+    border-radius: 50%;
+}
+
+
+
+/**/
+ /*caixa de notificação*/
+.input-group {
+    align-self: center;
+    max-width: 500px;
+    margin-top: 150px;/*é isto que está a dar a distancia vertical meter alinhamento automático*/
+    margin-bottom: 50px;
+    width: 500px
+}
+.greeting-form {
+    max-width: 500px;
+ }
+ 
+
+.greeting {
+   margin-top: 30px;
+}
+
+.range-form {
+    align-self: center;
+    max-width: 500px;
+    margin-top: 150px;/*é isto que está a dar a distancia vertical meter alinhamento automático*/
+    margin-bottom: 50px;
+    width: 500px
+}
+
+/*.form-group {
+    align-self: center;
+    max-width: 500px;
+}
+
+
+
+
+.card {
+    background-color: none;
+    border: none;
+    align-self: flex-end;
+    align-self: bottom;
+    align-self: left;
+    margin-top: 30px;
+}
+
+
+.card-body {
+    background-color: transparent;
+    border: none;
+   }
+
+.card-text{
+    font-size: 10px;
+    color: #fff;
+}
+
+  /* teste 2 de slider */
+  .range-form {
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  .range-slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    /* Full-width */
+    height: 10px;
+    border-radius: 5px;
+    /* Specified height */
+    background: #d3d3d3;
+    /* Grey background */
+    outline: none;  /* ----------------------------isto pode ser alterado para fazer cop com o botão */
+    /* Remove outline */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    &:hover {
+      opacity: 1;
+      /* Fully shown on mouse-over */
+    }
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      /* Override default look */
+      appearance: none;
+      width: 18px;
+      /* Set a specific slider handle width */
+      height: 18px;
+      /* Slider handle height */
+      background: #a83333; 
+      /* Green background */
+      cursor: pointer;
+      /* Cursor on hover */
+      border-radius: 50%;
+    }
+    &::-moz-range-thumb {
+      width: 18px;
+      /* Set a specific slider handle width */
+      height: 18px;
+      /* Slider handle height */
+      background: #a83333;
+      /* Green background */
+      cursor: pointer;
+      /* Cursor on hover */
+    }
+  }
+  
+  /* Mouse-over effects */
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+
+/*parte antiga
+/*forms de preenchimento, depois simplificar os nomes
+.greeting-form {
+    font-family: 'Arial';
+    align-content: center;
+}
+
+caixa das notificações
+.input_post {
+    font-family: 'Arial';
+    align-content: center;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    border-color: none;
+    width: 300px;
+}
+
+botão das notificações
+.submitbtn {
+    align-content: center;
+}
+
+
+Notification Title e os outros titulos igais:
+.tituloinput  {
+    margin-top: 20px;
+    font-family: 'Arial';
+    color: #a83333;
+    align-self: center;
+    font-size: 20px;
+    border: none;
+}
+
+
+caixa de texto 
+.chat-area {
+    max-width: 30px;
+    max-height: 30px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+}
+
+caixa de texto parte 2
+.input {
+    border-radius: 20px;
+    border: none;
+}
+
+.textarea {
+    border-radius: 20px;
+    border: none;
+}*/

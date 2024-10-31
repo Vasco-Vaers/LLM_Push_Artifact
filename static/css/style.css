@@ -1,0 +1,69 @@
+/*barra de head*/
+.navbar {
+    background-color: #a83333;
+    color: #fff;
+    width: flex;
+}
+
+.navtitle {  
+    color: #fff;
+    }
+
+.logo {  
+    border-radius: 50%;
+}
+
+ /*caixa de notificação*/
+.input-group {
+    align-self: center;
+    max-width: 500px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 500px
+}
+.sumbit_btn{
+    background-color: #a83333;
+    color: #a83333;
+}
+
+.greeting-form {
+    max-width: 500px;
+ }
+ 
+.greeting {
+   margin-top: 30px;
+}
+
+.caixa {
+    align-self: center;
+    max-width: 500px;
+    margin-top: 25px;
+    width: 500px
+}
+
+.range-form {
+    align-self: center;
+    max-width: 500px;
+    margin-top: 27px;
+    width: 500px
+}
+
+rangeformtitle{
+    color: grey;
+}
+demo {
+    color: grey;
+}
+
+.form-group{
+    max-width: 500px;
+    width: 500px
+}
+
+.range-description {
+    font-size: 10px; 
+}
+
+.card-text {
+    font-size: 10px; 
+}
