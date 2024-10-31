@@ -9,7 +9,7 @@ import pymysql
 app = Flask(__name__)
 # Add database
 
-app.config ['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:UrsoPollar2@localhost:1106/hello'
+app.config ['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://VV'
 app.config ['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # initialize the database
